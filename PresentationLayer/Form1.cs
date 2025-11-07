@@ -12,16 +12,20 @@ namespace PresentationLayer
             InitializeComponent();
         }
 
+        Form2 frmMainPage = new Form2();
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(clsUser.Find(txtUserName.Text, txtPassword.Text) != null)
+            if (clsUser.Find(txtUserName.Text, txtPassword.Text) != null)
             {
-                MessageBox.Show("Logged In Successfully", "", MessageBoxButtons.OK);
+                frmMainPage.Show();
+
+                this.Hide();
             }
             else
             {
 
-                MessageBox.Show("UserName Or Password Is Not Correct","Error", MessageBoxButtons.OK);
+                MessageBox.Show("UserName Or Password Is Not Correct", "Error", MessageBoxButtons.OK);
             }
         }
     }

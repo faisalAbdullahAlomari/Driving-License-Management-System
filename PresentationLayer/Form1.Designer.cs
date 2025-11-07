@@ -33,6 +33,7 @@
             label2 = new Label();
             label3 = new Label();
             label1 = new Label();
+            cbRemember = new CheckBox();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             btnLogin = new Button();
@@ -41,7 +42,6 @@
             label4 = new Label();
             txtPassword = new TextBox();
             txtUserName = new TextBox();
-            cbRemember = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -122,6 +122,16 @@
             label1.Text = "WELCOME TO ";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // cbRemember
+            // 
+            cbRemember.AutoSize = true;
+            cbRemember.Location = new Point(218, 290);
+            cbRemember.Name = "cbRemember";
+            cbRemember.Size = new Size(104, 19);
+            cbRemember.TabIndex = 10;
+            cbRemember.Text = "Remember Me";
+            cbRemember.UseVisualStyleBackColor = true;
+            // 
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.password;
@@ -198,16 +208,6 @@
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(203, 23);
             txtUserName.TabIndex = 1;
-            // 
-            // cbRemember
-            // 
-            cbRemember.AutoSize = true;
-            cbRemember.Location = new Point(218, 290);
-            cbRemember.Name = "cbRemember";
-            cbRemember.Size = new Size(104, 19);
-            cbRemember.TabIndex = 10;
-            cbRemember.Text = "Remember Me";
-            cbRemember.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

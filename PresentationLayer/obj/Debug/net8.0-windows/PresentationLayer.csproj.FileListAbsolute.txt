@@ -27,3 +27,6 @@ C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManageme
 C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Form2.resources
+C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.sourcelink.json
+C:\Users\Faisal\Desktop\Driving License Management System\DrivingLicenseManagementSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.People.resources

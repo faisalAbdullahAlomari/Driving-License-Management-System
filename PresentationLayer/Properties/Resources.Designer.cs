@@ -103,6 +103,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap demographic {
+            get {
+                object obj = ResourceManager.GetObject("demographic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DLMS_logo {
             get {
                 object obj = ResourceManager.GetObject("DLMS logo", resourceCulture);
@@ -156,6 +166,16 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap password {
             get {
                 object obj = ResourceManager.GetObject("password", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_man {
+            get {
+                object obj = ResourceManager.GetObject("person_man", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

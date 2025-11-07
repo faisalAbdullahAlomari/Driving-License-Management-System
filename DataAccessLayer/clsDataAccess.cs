@@ -38,7 +38,7 @@ namespace DataAccessLayer
                                 IsActive = (bool)reader["IsActive"];
                             }
                         }
-                    }catch(Exception ex)
+                    } catch (Exception ex)
                     {
                         IsFound = false;
                         throw;
@@ -49,5 +49,38 @@ namespace DataAccessLayer
             }
         }
 
+        public static DataTable GetAllThePeople()
+        {
+            string query = "SELECT * FROM People";
+
+            DataTable dtPeople = new DataTable();
+
+            using(SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString2))
+            {
+                using(SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    try
+                    {
+                        connection.Open();
+
+                        using(SqlDataReader reader = command.ExecuteReader())
+                        {
+
+                            if (reader.HasRows)
+                            {
+
+                                dtPeople.Load(reader);
+                            }
+                        }
+                    }catch(Exception ex)
+                    {
+                        throw;
+                    }
+                }
+            }
+
+            return dtPeople;
+        }
     }
 }
