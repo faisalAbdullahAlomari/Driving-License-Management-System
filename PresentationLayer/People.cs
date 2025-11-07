@@ -27,8 +27,6 @@ namespace PresentationLayer
             lvPeople.Columns.Clear();
 
             lvPeople.View = View.Details;
-            lvPeople.FullRowSelect = true;
-            lvPeople.GridLines = true;
 
             foreach (DataColumn column in dtPeople.Columns)
             {
@@ -62,6 +60,11 @@ namespace PresentationLayer
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnAddPerson_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
