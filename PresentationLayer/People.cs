@@ -13,6 +13,9 @@ namespace PresentationLayer
 {
     public partial class People : Form
     {
+
+        AddNewAndUpdateForm addNewAndUpdate = new AddNewAndUpdateForm();
+
         public People()
         {
             InitializeComponent();
@@ -64,7 +67,7 @@ namespace PresentationLayer
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
-            
+            addNewAndUpdate.ShowDialog();
         }
     }
 }
